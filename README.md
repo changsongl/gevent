@@ -37,7 +37,7 @@ func Register() {
 	
     a := test{1}
     b := &test{2}
-    e.TriggerEvent("account-create", a, b)
+    ge.TriggerEvent("account-create", a, b)
 }
 
 // point.go
